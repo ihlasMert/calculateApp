@@ -47,6 +47,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="AC">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZTw-m6-Po1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5K-Je-wH8">
                                                 <rect key="frame" x="104" y="0.0" width="102.5" height="141.5"/>
@@ -55,6 +58,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="+/-">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buMinues:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJq-Pk-gsO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGr-Bq-9YW">
                                                 <rect key="frame" x="207.5" y="0.0" width="103" height="141.5"/>
@@ -63,6 +69,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="%">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d09-7D-N4a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcb-Tc-b3A">
                                                 <rect key="frame" x="311.5" y="0.0" width="102.5" height="141.5"/>
@@ -71,6 +80,10 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="÷">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buDiv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bkw-ge-G8X"/>
+                                                    <action selector="buMull:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlx-sU-Fh3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -84,6 +97,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="7">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Njx-iC-6rC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vk-7e-MTi">
                                                 <rect key="frame" x="104" y="0.0" width="102.5" height="141"/>
@@ -92,6 +108,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="8">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEn-aB-pNr"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGn-6H-ffd">
                                                 <rect key="frame" x="207.5" y="0.0" width="103" height="141"/>
@@ -100,6 +119,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="9">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cv8-vi-qpB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLv-ba-28l">
                                                 <rect key="frame" x="311.5" y="0.0" width="102.5" height="141"/>
@@ -108,6 +130,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="x">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buMull:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Miy-q0-RKl"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -121,6 +146,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="4">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIe-cS-XQA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGu-8X-SoG">
                                                 <rect key="frame" x="104" y="0.0" width="102.5" height="141"/>
@@ -129,6 +157,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="5">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mP-Z6-QQ4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcr-qj-gs7">
                                                 <rect key="frame" x="207.5" y="0.0" width="103" height="141"/>
@@ -137,6 +168,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="6">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cvd-md-ufc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6V-N6-UiF">
                                                 <rect key="frame" x="311.5" y="0.0" width="102.5" height="141"/>
@@ -145,6 +179,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buSub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lVk-19-XYV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -158,6 +195,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="1">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZzK-5B-UTA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwV-B1-tEL">
                                                 <rect key="frame" x="104" y="0.0" width="102.5" height="141.5"/>
@@ -166,6 +206,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="2">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jPc-yA-2sq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpy-ZN-omx">
                                                 <rect key="frame" x="207.5" y="0.0" width="103" height="141.5"/>
@@ -174,6 +217,10 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="3">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bu2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQZ-lb-yYb"/>
+                                                    <action selector="bu3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mBF-Js-TBM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJR-yq-ISK">
                                                 <rect key="frame" x="311.5" y="0.0" width="102.5" height="141.5"/>
@@ -182,6 +229,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="81W-TR-uGB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -195,6 +245,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="0">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mib-RV-mxf"/>
+                                                </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ymL-Ku-8EC">
                                                 <rect key="frame" x="207.5" y="0.0" width="206.5" height="141"/>
@@ -206,6 +259,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title=".">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buDot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8y-ra-uer"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uel-Zr-4Vd">
                                                         <rect key="frame" x="104" y="0.0" width="102.5" height="141"/>
@@ -214,6 +270,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="=">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="buEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VmW-FQ-6cq"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -231,6 +290,9 @@
                             <constraint firstItem="CjI-Ea-HCt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hOn-ES-fyD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="laNumberShow" destination="4hE-iU-Tao" id="4hm-Q6-qyJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
